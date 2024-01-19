@@ -4,13 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carolina Spa</title>
+    <title>Candela Spa</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Lato:wght@400;700;900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
+    <header class="header container">
+        <div class="headerGrid">
+            <div class="headerLogo">
+                <img class="headerImgLogo" src="build/img/logo.svg" alt="Imagen Logo">
+            </div>
 
+            <nav class="navSocial">
+                <a class="navSocialLink" href="https://twitter.com"><span class="navSocialText">twitter</span></a>
+                <a class="navSocialLink" href="https://facebook.com"><span class="navSocialText">facebook</span></a>
+                <a class="navSocialLink" href="https://instagram.com"><span class="navSocialText">instagram</span></a>
+                <a class="navSocialLink" href="https://youtube.com"><span class="navSocialText">youtube</span></a>
+                <a class="navSocialLink" href="https://tiktok.com"><span class="navSocialText">tiktok</span></a>
+                <a class="navSocialLink" href="https://pinterest.com"><span class="navSocialText">pinterest</span></a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="navigation">
+        <div class="navigationBorder">
+            <nav class="navigationContainer">
+                <a class="navigationLink" href="#">Inicio</a>
+                <a class="navigationLink" href="#">Nosotros</a>
+                <a class="navigationLink" href="#">Servicios</a>
+                <a class="navigationLink" href="#">Productos</a>
+                <a class="navigationLink" href="#">Contacto</a>
+            </nav>
+        </div>
+    </div>
+
+    <section class="slider">
+        <ul class="sliderContainer">
+            <li class="sliderSlide">
+                <img src="build/img/slide_01.avif" alt="imagen slider 1">
+            </li>
+        </ul>
+    </section>
+
+    <section class="welcome section">
+        <h1 class="welcomeHeading">Bienvenid@ a nuestro <span>sitio web</span></h1>
+        <p class="welcomeText">Te sentiras como nuevo/a con nuestros masajistas profesionales</p>
+    </section>
+
+    <section class="cards">
+        <div class="cardsGrid container">
+            <!--start card 1-->
+            <div class="card">
+                <img class="cardImage" src="build/img/servicio_01.avif" alt="imagen card 1">
+                <div class="cardContent">
+                    <h2 class="cardHeading">Conoce sobre <span>Nosotros</span></h2>
+                    <a class="cardLink" href="#">Leer Más</a>
+                </div>
+            </div>
+            <!--end card 1-->
+
+            <!--start card 2-->
+            <div class="card">
+                <img class="cardImage" src="build/img/servicio_02.avif" alt="imagen card 2">
+                <div class="cardContent">
+                    <h2 class="cardHeading">Nuestros <span>Servicios</span></h2>
+                    <a class="cardLink" href="#">Leer Más</a>
+                </div>
+            </div>
+            <!--end card 2-->
+
+            <!--start card 3-->
+            <div class="card">
+                <img class="cardImage" src="build/img/servicio_03.avif" alt="imagen card 3">
+                <div class="cardContent">
+                    <h2 class="cardHeading">visita Nuestra <span>Tienda</span></h2>
+                    <a class="cardLink" href="#">Leer Más</a>
+                </div>
+            </div>
+            <!--end card 3-->
+        </div>
+    </section>
 </body>
 </html>

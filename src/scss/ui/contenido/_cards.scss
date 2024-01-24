@@ -34,4 +34,23 @@
         }
     }
 
+    &Content {
+        max-width: 90%;
+        margin: 0 auto;
+        background-color: v.$white;
+        transform: translateY(-5rem);
+    }
+
+    &Heading {
+        @include m.headingItalics;
+        font-size: 3.4rem;
+        padding: 2rem;
+    }
+
+    &Link {
+        @include m.button(v.$secondary, v.$white);
+        display: block;
+
+    }
+
 }

@@ -1,0 +1,29 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.quotes {
+    background-image: url(../img/bg_citas.avif);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5rem 0;
+    text-align: center;
+
+    &Heading {
+        @include m.heading;
+        color: v.$white;
+        font-size: 6rem;
+    }
+
+    &Text {
+        max-width: 60rem;
+        margin: 0 auto;
+        color: v.$white;
+        line-height: 2;
+    }
+
+    &Link {
+        @include m.button(v.$primary, v.$white);
+        padding: 2rem 10rem;
+    }
+}

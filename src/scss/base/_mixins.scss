@@ -67,3 +67,10 @@
         font-family: v.$primaryFont;
     }
 }
+
+@mixin heading {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    font-size: 4rem;
+}
